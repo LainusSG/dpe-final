@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -150,6 +151,7 @@ import { HomeAdminComponent } from './home-admin/home-admin.component';
     MatMenuModule,
     MatListModule,
     MatIconModule,
+    HttpClientModule,
    
   ],
   providers: [
