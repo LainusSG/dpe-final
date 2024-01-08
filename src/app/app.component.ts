@@ -10,6 +10,6 @@ import { CargarScriptsService } from './cargar-scripts.service';
 export class AppComponent {
   title = 'DPE';
    
-  constructor(public nicepage:CargarScriptsService, jquery:CargarScriptsService,intlTelInput:CargarScriptsService, utils:CargarScriptsService ){
-    jquery.carga(['jquery']) , nicepage.carga(['nicepage']);}
+  constructor(public nicepage:CargarScriptsService, jquery:CargarScriptsService, timer:CargarScriptsService ){
+    jquery.carga(['jquery']) , timer.carga(['timer']), nicepage.carga(['nicepage']);}
   }
